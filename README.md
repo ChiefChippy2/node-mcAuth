@@ -68,9 +68,9 @@ Local always overrides global.
     offline:false, // If true, additionally prompts user for an offline token. This can be used to refresh a token ( TODO ) and get their profile again without having to ask them to authenticate blablabla.
     state:false, // If true, a state is generated. This is very useful for 1. knowing which user it is and 2. checking if there is some XSRF or some other voodoo magic that is abusing your OAuth.
     stateOptions:{
-        stateLength: 16; // Length of state, can't be larger than 128
-        ttl: 60; // Time in seconds for the state to be valid. Can't be more than 1 hour.
-        allowedChars: '1234567890abcdef-'; // Potential characters to be inside the state. Recommendation : don't put emojis.
+        stateLength: 16, // Length of state, can't be larger than 128
+        ttl: 60, // Time in seconds for the state to be valid. Can't be more than 1 hour.
+        allowedChars: '1234567890abcdef-' // Potential characters to be inside the state. Recommendation : don't put emojis.
     }
 }
 ```
