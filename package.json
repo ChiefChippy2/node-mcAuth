@@ -1,0 +1,32 @@
+{
+  "name": "node-mcAuth",
+  "version": "beta-0.1.0",
+  "description": "new mineraft authentication protocol https://login.live.com/oauth20_authorize.srf?client_id=bc071bd2-cad2-44d6-8718-cb0841885bb9&response_type=code&redirect_uri=https://mc-auth.cc2.workers.dev&scope=XboxLive.signin%20offline_access&state=",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint src",
+    "eslint:fix": "eslint src --fix",
+    "test":"node test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.19",
+    "dotenv": "^8.2.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "path": "^0.12.7",
+    "standard": "^16.0.3",
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.5"
+  },
+  "keywords": [
+    "minecraft",
+    "auth",
+    "mc",
+    "microsoft",
+    "mojang"
+  ],
+  "author": "",
+  "license": "ISC"
+}
